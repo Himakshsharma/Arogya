@@ -1,5 +1,10 @@
 # Arogya · आरोग्य
 
+[![CI](https://github.com/Himakshsharma/Arogya/actions/workflows/ci.yml/badge.svg)](https://github.com/Himakshsharma/Arogya/actions/workflows/ci.yml)
+![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688)
+![React](https://img.shields.io/badge/React-Three.js-61DAFB)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 **A two-way Indian Sign Language and doctor–patient communication assistant.**
 
 Live demo: https://arogya-rgjh.onrender.com (free instance; the first visit after a quiet spell takes about a minute to wake up).
@@ -144,7 +149,7 @@ frontend/
   e2e/                     Playwright tests
 ml/                        INCLUDE keypoint extraction, LSTM training, Colab notebook
 scripts/                   export_starter_templates.mjs
-docs/                      architecture, deployment, interview Q&A
+docs/                      architecture, deployment
 ```
 
 ## Limitations
