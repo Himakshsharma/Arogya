@@ -1,0 +1,13 @@
+{
+  "name": "Arogya – Doctor-patient communication",
+  "short_name": "Arogya",
+  "description": "Indian Sign Language, speech and symptom boards for accessible healthcare.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EEF0F6",
+  "theme_color": "#1C2470",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
