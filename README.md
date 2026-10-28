@@ -33,7 +33,7 @@ Arogya merges two ideas: **SanketSetu** (ISL ⇄ text/speech) and **MediBridge**
 | Frontend | React 18, Vite, React Router, plain CSS (no UI kit) | Small, fast, one codebase for laptop and phone (PWA) |
 | 3D avatar | Three.js, procedural hand model + two-bone IK | No rigged model files; any landmark source can drive it |
 | Hand/pose tracking | MediaPipe Tasks (hand + pose landmarkers) **in the browser** | Video never leaves the device; GPU-accelerated |
-| Sign recognition | LSTM (Keras → ONNX) trained on **INCLUDE** + DTW few-shot templates | Works on day one, improves with training and with user recordings |
+| Sign recognition | DTW few-shot templates, plus an optional LSTM (Keras → ONNX) you train on **INCLUDE** | Works on day one with templates; add the trained LSTM and user recordings to improve it |
 | Backend | Python 3.11, FastAPI, WebSockets, SQLite, JWT, PBKDF2 | Simple, typed, async real-time rooms |
 | Speech | Browser Web Speech API; optional **Whisper** (faster-whisper) and **gTTS** on the server | Works offline-ish, better with server models |
 | Translation | Medical phrasebook → optional **IndicTrans2** / MarianMT → marked word-by-word fallback | Accurate where it matters, honest where it is not |
