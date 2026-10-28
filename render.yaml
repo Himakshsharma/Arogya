@@ -1,0 +1,14 @@
+# Render Blueprint (alternative to Hugging Face Spaces).
+# Render dashboard -> New -> Blueprint -> pick this repository.
+services:
+  - type: web
+    name: arogya
+    runtime: docker
+    dockerfilePath: ./Dockerfile.lite
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: AROGYA_SECRET_KEY
+        generateValue: true
+      - key: PORT
+        value: "8000"

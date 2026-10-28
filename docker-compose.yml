@@ -1,0 +1,17 @@
+# Run the whole app locally with one command:  docker compose up --build
+# Then open http://localhost:8000
+services:
+  arogya:
+    build:
+      context: .
+      dockerfile: Dockerfile.lite
+    ports:
+      - "8000:8000"
+    environment:
+      AROGYA_SECRET_KEY: local-dev-secret-change-me-0123456789
+      AROGYA_DB_PATH: /data/arogya.db
+    volumes:
+      - arogya-data:/data
+
+volumes:
+  arogya-data:

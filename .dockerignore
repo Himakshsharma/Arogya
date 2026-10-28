@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/*.db
+.git
+.github
+ml/data
+ml/models
+frontend/test-results
+frontend/playwright-report
+docs
