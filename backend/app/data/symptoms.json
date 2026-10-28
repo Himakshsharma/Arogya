@@ -1,0 +1,471 @@
+{
+ "categories": [
+  {
+   "id": "pain",
+   "en": "Pain",
+   "hi": "दर्द"
+  },
+  {
+   "id": "body",
+   "en": "Body",
+   "hi": "शरीर"
+  },
+  {
+   "id": "breath",
+   "en": "Breathing & chest",
+   "hi": "साँस और छाती"
+  },
+  {
+   "id": "stomach",
+   "en": "Stomach",
+   "hi": "पेट"
+  },
+  {
+   "id": "needs",
+   "en": "I need",
+   "hi": "मुझे चाहिए"
+  }
+ ],
+ "symptoms": [
+  {
+   "id": "headache",
+   "cat": "pain",
+   "en": "Headache",
+   "hi": "सिर दर्द",
+   "say_en": "I have a headache.",
+   "say_hi": "मेरे सिर में दर्द है।",
+   "gloss": [
+    "ME",
+    "HEAD",
+    "PAIN"
+   ]
+  },
+  {
+   "id": "chest_pain",
+   "cat": "pain",
+   "en": "Chest pain",
+   "hi": "छाती में दर्द",
+   "say_en": "I have chest pain.",
+   "say_hi": "मेरी छाती में दर्द है।",
+   "gloss": [
+    "ME",
+    "CHEST",
+    "PAIN"
+   ],
+   "urgent": true
+  },
+  {
+   "id": "stomach_pain",
+   "cat": "pain",
+   "en": "Stomach pain",
+   "hi": "पेट दर्द",
+   "say_en": "I have stomach pain.",
+   "say_hi": "मेरे पेट में दर्द है।",
+   "gloss": [
+    "ME",
+    "STOMACH",
+    "PAIN"
+   ]
+  },
+  {
+   "id": "back_pain",
+   "cat": "pain",
+   "en": "Back pain",
+   "hi": "कमर दर्द",
+   "say_en": "My back hurts.",
+   "say_hi": "मेरी कमर में दर्द है।",
+   "gloss": [
+    "ME",
+    "BACK",
+    "PAIN"
+   ]
+  },
+  {
+   "id": "tooth_pain",
+   "cat": "pain",
+   "en": "Toothache",
+   "hi": "दाँत दर्द",
+   "say_en": "My tooth hurts.",
+   "say_hi": "मेरे दाँत में दर्द है।",
+   "gloss": [
+    "ME",
+    "MOUTH",
+    "PAIN"
+   ]
+  },
+  {
+   "id": "ear_pain",
+   "cat": "pain",
+   "en": "Ear pain",
+   "hi": "कान दर्द",
+   "say_en": "My ear hurts.",
+   "say_hi": "मेरे कान में दर्द है।",
+   "gloss": [
+    "ME",
+    "EAR",
+    "PAIN"
+   ]
+  },
+  {
+   "id": "joint_pain",
+   "cat": "pain",
+   "en": "Joint or leg pain",
+   "hi": "जोड़ों या पैर में दर्द",
+   "say_en": "My joints or legs hurt.",
+   "say_hi": "मेरे जोड़ों या पैरों में दर्द है।",
+   "gloss": [
+    "ME",
+    "LEG",
+    "PAIN"
+   ]
+  },
+  {
+   "id": "fever",
+   "cat": "body",
+   "en": "Fever",
+   "hi": "बुखार",
+   "say_en": "I have a fever.",
+   "say_hi": "मुझे बुखार है।",
+   "gloss": [
+    "ME",
+    "FEVER",
+    "HAVE"
+   ]
+  },
+  {
+   "id": "dizzy",
+   "cat": "body",
+   "en": "Dizziness",
+   "hi": "चक्कर",
+   "say_en": "I feel dizzy.",
+   "say_hi": "मुझे चक्कर आ रहे हैं।",
+   "gloss": [
+    "ME",
+    "DIZZY",
+    "FEEL"
+   ]
+  },
+  {
+   "id": "weak",
+   "cat": "body",
+   "en": "Weakness",
+   "hi": "कमज़ोरी",
+   "say_en": "I feel weak and tired.",
+   "say_hi": "मुझे कमज़ोरी और थकान है।",
+   "gloss": [
+    "ME",
+    "BAD",
+    "FEEL"
+   ]
+  },
+  {
+   "id": "rash",
+   "cat": "body",
+   "en": "Rash or itching",
+   "hi": "दाने या खुजली",
+   "say_en": "I have a rash or itching.",
+   "say_hi": "मुझे दाने या खुजली है।",
+   "gloss": [
+    "ME",
+    "ALLERGY",
+    "HAVE"
+   ]
+  },
+  {
+   "id": "bleeding",
+   "cat": "body",
+   "en": "Bleeding",
+   "hi": "खून बहना",
+   "say_en": "I am bleeding.",
+   "say_hi": "मुझे खून बह रहा है।",
+   "gloss": [
+    "ME",
+    "BLOOD"
+   ],
+   "urgent": true
+  },
+  {
+   "id": "eye_problem",
+   "cat": "body",
+   "en": "Eye problem",
+   "hi": "आँख में तकलीफ़",
+   "say_en": "I have a problem with my eyes.",
+   "say_hi": "मेरी आँख में तकलीफ़ है।",
+   "gloss": [
+    "ME",
+    "EYE",
+    "BAD"
+   ]
+  },
+  {
+   "id": "no_sleep",
+   "cat": "body",
+   "en": "Can't sleep",
+   "hi": "नींद नहीं आती",
+   "say_en": "I cannot sleep.",
+   "say_hi": "मुझे नींद नहीं आती।",
+   "gloss": [
+    "ME",
+    "SLEEP",
+    "NOT"
+   ]
+  },
+  {
+   "id": "cough",
+   "cat": "breath",
+   "en": "Cough",
+   "hi": "खाँसी",
+   "say_en": "I have a cough.",
+   "say_hi": "मुझे खाँसी है।",
+   "gloss": [
+    "ME",
+    "COUGH",
+    "HAVE"
+   ]
+  },
+  {
+   "id": "cold",
+   "cat": "breath",
+   "en": "Cold or runny nose",
+   "hi": "जुकाम",
+   "say_en": "I have a cold.",
+   "say_hi": "मुझे जुकाम है।",
+   "gloss": [
+    "ME",
+    "COLD",
+    "HAVE"
+   ]
+  },
+  {
+   "id": "breathless",
+   "cat": "breath",
+   "en": "Breathlessness",
+   "hi": "साँस फूलना",
+   "say_en": "I cannot breathe properly.",
+   "say_hi": "मुझे ठीक से साँस नहीं आ रही।",
+   "gloss": [
+    "ME",
+    "BREATHE",
+    "NOT"
+   ],
+   "urgent": true
+  },
+  {
+   "id": "sore_throat",
+   "cat": "breath",
+   "en": "Sore throat",
+   "hi": "गले में खराश",
+   "say_en": "My throat hurts.",
+   "say_hi": "मेरे गले में दर्द है।",
+   "gloss": [
+    "ME",
+    "THROAT",
+    "PAIN"
+   ]
+  },
+  {
+   "id": "palpitations",
+   "cat": "breath",
+   "en": "Fast heartbeat",
+   "hi": "धड़कन तेज़",
+   "say_en": "My heart is beating fast.",
+   "say_hi": "मेरी धड़कन तेज़ है।",
+   "gloss": [
+    "ME",
+    "CHEST",
+    "MORE"
+   ]
+  },
+  {
+   "id": "vomiting",
+   "cat": "stomach",
+   "en": "Vomiting",
+   "hi": "उल्टी",
+   "say_en": "I am vomiting.",
+   "say_hi": "मुझे उल्टी हो रही है।",
+   "gloss": [
+    "ME",
+    "VOMIT"
+   ]
+  },
+  {
+   "id": "nausea",
+   "cat": "stomach",
+   "en": "Nausea",
+   "hi": "जी मचलाना",
+   "say_en": "I feel like vomiting.",
+   "say_hi": "मेरा जी मचला रहा है।",
+   "gloss": [
+    "ME",
+    "VOMIT",
+    "FEEL"
+   ]
+  },
+  {
+   "id": "diarrhoea",
+   "cat": "stomach",
+   "en": "Loose motions",
+   "hi": "दस्त",
+   "say_en": "I have loose motions.",
+   "say_hi": "मुझे दस्त हो रहे हैं।",
+   "gloss": [
+    "ME",
+    "STOMACH",
+    "BAD"
+   ]
+  },
+  {
+   "id": "no_appetite",
+   "cat": "stomach",
+   "en": "No appetite",
+   "hi": "भूख नहीं",
+   "say_en": "I don't feel like eating.",
+   "say_hi": "मुझे भूख नहीं लगती।",
+   "gloss": [
+    "ME",
+    "EAT",
+    "NOT"
+   ]
+  },
+  {
+   "id": "need_water",
+   "cat": "needs",
+   "en": "Water",
+   "hi": "पानी",
+   "say_en": "I need water.",
+   "say_hi": "मुझे पानी चाहिए।",
+   "gloss": [
+    "ME",
+    "WATER"
+   ]
+  },
+  {
+   "id": "need_toilet",
+   "cat": "needs",
+   "en": "Toilet",
+   "hi": "शौचालय",
+   "say_en": "I need to use the toilet.",
+   "say_hi": "मुझे शौचालय जाना है।",
+   "gloss": [
+    "ME",
+    "GO"
+   ]
+  },
+  {
+   "id": "need_family",
+   "cat": "needs",
+   "en": "My family",
+   "hi": "मेरा परिवार",
+   "say_en": "Please call my family.",
+   "say_hi": "कृपया मेरे परिवार को बुलाइए।",
+   "gloss": [
+    "ME",
+    "FAMILY",
+    "PLEASE"
+   ]
+  },
+  {
+   "id": "need_interpreter",
+   "cat": "needs",
+   "en": "Sign interpreter",
+   "hi": "साइन दुभाषिया",
+   "say_en": "I need a sign language interpreter.",
+   "say_hi": "मुझे साइन भाषा दुभाषिया चाहिए।",
+   "gloss": [
+    "ME",
+    "HELP",
+    "PLEASE"
+   ]
+  },
+  {
+   "id": "repeat",
+   "cat": "needs",
+   "en": "Repeat please",
+   "hi": "फिर से बताइए",
+   "say_en": "Please say that again, slowly.",
+   "say_hi": "कृपया फिर से धीरे बताइए।",
+   "gloss": [
+    "AGAIN",
+    "SLOW",
+    "PLEASE"
+   ]
+  },
+  {
+   "id": "understood",
+   "cat": "needs",
+   "en": "I understand",
+   "hi": "मैं समझ गया",
+   "say_en": "I understand.",
+   "say_hi": "मैं समझ गया/गई।",
+   "gloss": [
+    "ME",
+    "UNDERSTAND"
+   ]
+  },
+  {
+   "id": "not_understood",
+   "cat": "needs",
+   "en": "I don't understand",
+   "hi": "समझ नहीं आया",
+   "say_en": "I don't understand.",
+   "say_hi": "मुझे समझ नहीं आया।",
+   "gloss": [
+    "ME",
+    "UNDERSTAND",
+    "NOT"
+   ]
+  }
+ ],
+ "body_regions": [
+  {
+   "id": "head",
+   "en": "Head",
+   "hi": "सिर"
+  },
+  {
+   "id": "eyes",
+   "en": "Eyes",
+   "hi": "आँखें"
+  },
+  {
+   "id": "throat",
+   "en": "Throat",
+   "hi": "गला"
+  },
+  {
+   "id": "chest",
+   "en": "Chest",
+   "hi": "छाती"
+  },
+  {
+   "id": "stomach",
+   "en": "Stomach",
+   "hi": "पेट"
+  },
+  {
+   "id": "left_arm",
+   "en": "Left arm",
+   "hi": "बायाँ हाथ"
+  },
+  {
+   "id": "right_arm",
+   "en": "Right arm",
+   "hi": "दायाँ हाथ"
+  },
+  {
+   "id": "back",
+   "en": "Back",
+   "hi": "पीठ"
+  },
+  {
+   "id": "left_leg",
+   "en": "Left leg",
+   "hi": "बायाँ पैर"
+  },
+  {
+   "id": "right_leg",
+   "en": "Right leg",
+   "hi": "दायाँ पैर"
+  }
+ ]
+}

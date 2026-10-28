@@ -1,0 +1,9 @@
+# Optional server-side AI features. Install on top of requirements.txt.
+# CPU-only PyTorch keeps the Docker image around 1.5 GB instead of 5 GB.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+transformers==4.47.1
+sentencepiece==0.2.0
+sacremoses==0.1.1
+faster-whisper==1.1.0
+gTTS==2.5.4

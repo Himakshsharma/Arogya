@@ -1,0 +1,362 @@
+{
+ "doctor": [
+  {
+   "id": "greet",
+   "group": "start",
+   "en": "Hello, I am your doctor.",
+   "hi": "नमस्ते, मैं आपका डॉक्टर हूँ।"
+  },
+  {
+   "id": "name",
+   "group": "start",
+   "en": "What is your name?",
+   "hi": "आपका नाम क्या है?"
+  },
+  {
+   "id": "age",
+   "group": "start",
+   "en": "How old are you?",
+   "hi": "आपकी उम्र क्या है?"
+  },
+  {
+   "id": "how_feel",
+   "group": "start",
+   "en": "How are you feeling today?",
+   "hi": "आज आप कैसा महसूस कर रहे हैं?"
+  },
+  {
+   "id": "where_pain",
+   "group": "ask",
+   "en": "Where does it hurt?",
+   "hi": "दर्द कहाँ हो रहा है?"
+  },
+  {
+   "id": "since_when",
+   "group": "ask",
+   "en": "Since when do you have this problem?",
+   "hi": "यह तकलीफ़ कब से है?"
+  },
+  {
+   "id": "pain_scale",
+   "group": "ask",
+   "en": "How bad is the pain, from zero to ten?",
+   "hi": "दर्द कितना है, शून्य से दस तक?"
+  },
+  {
+   "id": "fever_q",
+   "group": "ask",
+   "en": "Do you have a fever?",
+   "hi": "क्या आपको बुखार है?"
+  },
+  {
+   "id": "vomit_q",
+   "group": "ask",
+   "en": "Have you vomited?",
+   "hi": "क्या आपको उल्टी हुई है?"
+  },
+  {
+   "id": "allergy_q",
+   "group": "ask",
+   "en": "Do you have any allergies?",
+   "hi": "क्या आपको किसी चीज़ से एलर्जी है?"
+  },
+  {
+   "id": "meds_q",
+   "group": "ask",
+   "en": "Are you taking any medicine now?",
+   "hi": "क्या आप अभी कोई दवा ले रहे हैं?"
+  },
+  {
+   "id": "eat_q",
+   "group": "ask",
+   "en": "Did you eat food today?",
+   "hi": "क्या आपने आज खाना खाया?"
+  },
+  {
+   "id": "sleep_q",
+   "group": "ask",
+   "en": "Are you sleeping well?",
+   "hi": "क्या आपको ठीक से नींद आ रही है?"
+  },
+  {
+   "id": "pregnant_q",
+   "group": "ask",
+   "en": "Are you pregnant?",
+   "hi": "क्या आप गर्भवती हैं?"
+  },
+  {
+   "id": "show",
+   "group": "exam",
+   "en": "Please show me where.",
+   "hi": "कृपया मुझे दिखाइए कहाँ।"
+  },
+  {
+   "id": "sit",
+   "group": "exam",
+   "en": "Please sit down.",
+   "hi": "कृपया बैठ जाइए।"
+  },
+  {
+   "id": "lie",
+   "group": "exam",
+   "en": "Please lie down.",
+   "hi": "कृपया लेट जाइए।"
+  },
+  {
+   "id": "mouth",
+   "group": "exam",
+   "en": "Please open your mouth.",
+   "hi": "कृपया अपना मुँह खोलिए।"
+  },
+  {
+   "id": "breathe",
+   "group": "exam",
+   "en": "Take a deep breath.",
+   "hi": "गहरी साँस लीजिए।"
+  },
+  {
+   "id": "wait",
+   "group": "exam",
+   "en": "Please wait here.",
+   "hi": "कृपया यहाँ रुकिए।"
+  },
+  {
+   "id": "injection",
+   "group": "exam",
+   "en": "I will give you an injection.",
+   "hi": "मैं आपको एक इंजेक्शन दूँगा।"
+  },
+  {
+   "id": "blood_test",
+   "group": "exam",
+   "en": "You need a blood test.",
+   "hi": "आपको खून की जाँच करवानी होगी।"
+  },
+  {
+   "id": "good",
+   "group": "end",
+   "en": "Nothing serious. You will be fine.",
+   "hi": "कुछ गंभीर नहीं है। आप ठीक हो जाएँगे।"
+  },
+  {
+   "id": "take_meds",
+   "group": "end",
+   "en": "Take your medicine on time.",
+   "hi": "अपनी दवा समय पर लीजिए।"
+  },
+  {
+   "id": "after_food",
+   "group": "end",
+   "en": "Take this after food.",
+   "hi": "यह खाने के बाद लीजिए।"
+  },
+  {
+   "id": "water",
+   "group": "end",
+   "en": "Drink more water.",
+   "hi": "ज़्यादा पानी पीजिए।"
+  },
+  {
+   "id": "rest",
+   "group": "end",
+   "en": "Please rest and sleep well.",
+   "hi": "कृपया आराम कीजिए और अच्छी नींद लीजिए।"
+  },
+  {
+   "id": "come_back",
+   "group": "end",
+   "en": "Come back after five days.",
+   "hi": "पाँच दिन बाद फिर आइए।"
+  },
+  {
+   "id": "understand_q",
+   "group": "end",
+   "en": "Do you understand?",
+   "hi": "क्या आप समझ गए?"
+  },
+  {
+   "id": "thanks",
+   "group": "end",
+   "en": "Thank you. Get well soon.",
+   "hi": "धन्यवाद। जल्दी ठीक हो जाइए।"
+  }
+ ],
+ "patient": [
+  {
+   "id": "p_yes",
+   "en": "Yes",
+   "hi": "हाँ"
+  },
+  {
+   "id": "p_no",
+   "en": "No",
+   "hi": "नहीं"
+  },
+  {
+   "id": "p_dont_know",
+   "en": "I don't know.",
+   "hi": "मुझे नहीं पता।"
+  },
+  {
+   "id": "p_today",
+   "en": "Since today.",
+   "hi": "आज से।"
+  },
+  {
+   "id": "p_yesterday",
+   "en": "Since yesterday.",
+   "hi": "कल से।"
+  },
+  {
+   "id": "p_few_days",
+   "en": "For a few days.",
+   "hi": "कुछ दिनों से।"
+  },
+  {
+   "id": "p_week",
+   "en": "For more than a week.",
+   "hi": "एक हफ़्ते से ज़्यादा।"
+  },
+  {
+   "id": "p_better",
+   "en": "I feel better.",
+   "hi": "मैं बेहतर महसूस कर रहा/रही हूँ।"
+  },
+  {
+   "id": "p_worse",
+   "en": "It is getting worse.",
+   "hi": "यह और बिगड़ रहा है।"
+  },
+  {
+   "id": "p_thanks",
+   "en": "Thank you, doctor.",
+   "hi": "धन्यवाद, डॉक्टर।"
+  }
+ ],
+ "words": {
+  "hello": "नमस्ते",
+  "doctor": "डॉक्टर",
+  "nurse": "नर्स",
+  "hospital": "अस्पताल",
+  "medicine": "दवा",
+  "tablet": "गोली",
+  "tablets": "गोलियाँ",
+  "injection": "इंजेक्शन",
+  "test": "जाँच",
+  "blood": "खून",
+  "pain": "दर्द",
+  "head": "सिर",
+  "stomach": "पेट",
+  "chest": "छाती",
+  "back": "पीठ",
+  "throat": "गला",
+  "eye": "आँख",
+  "eyes": "आँखें",
+  "ear": "कान",
+  "mouth": "मुँह",
+  "leg": "पैर",
+  "hand": "हाथ",
+  "fever": "बुखार",
+  "cough": "खाँसी",
+  "cold": "जुकाम",
+  "vomit": "उल्टी",
+  "vomiting": "उल्टी",
+  "water": "पानी",
+  "food": "खाना",
+  "eat": "खाइए",
+  "drink": "पीजिए",
+  "sleep": "नींद",
+  "rest": "आराम",
+  "morning": "सुबह",
+  "afternoon": "दोपहर",
+  "night": "रात",
+  "day": "दिन",
+  "days": "दिन",
+  "today": "आज",
+  "tomorrow": "कल",
+  "now": "अभी",
+  "yes": "हाँ",
+  "no": "नहीं",
+  "not": "नहीं",
+  "please": "कृपया",
+  "thank": "धन्यवाद",
+  "thanks": "धन्यवाद",
+  "good": "अच्छा",
+  "bad": "बुरा",
+  "better": "बेहतर",
+  "more": "ज़्यादा",
+  "less": "कम",
+  "little": "थोड़ा",
+  "after": "बाद",
+  "before": "पहले",
+  "take": "लीजिए",
+  "wait": "रुकिए",
+  "come": "आइए",
+  "go": "जाइए",
+  "sit": "बैठिए",
+  "open": "खोलिए",
+  "show": "दिखाइए",
+  "where": "कहाँ",
+  "when": "कब",
+  "what": "क्या",
+  "how": "कैसे",
+  "why": "क्यों",
+  "you": "आप",
+  "your": "आपका",
+  "i": "मैं",
+  "me": "मुझे",
+  "my": "मेरा",
+  "and": "और",
+  "or": "या",
+  "one": "एक",
+  "two": "दो",
+  "three": "तीन",
+  "four": "चार",
+  "five": "पाँच",
+  "week": "हफ़्ता",
+  "allergy": "एलर्जी",
+  "dizzy": "चक्कर",
+  "breathe": "साँस",
+  "family": "परिवार",
+  "name": "नाम",
+  "age": "उम्र",
+  "this": "यह",
+  "that": "वह",
+  "is": "है",
+  "are": "हैं",
+  "the": "",
+  "a": "",
+  "an": "",
+  "to": "",
+  "of": "",
+  "do": "",
+  "does": "",
+  "in": "",
+  "on": "",
+  "at": "",
+  "for": "",
+  "with": ""
+ },
+ "aliases": [
+  {
+   "en": "Take this medicine after food.",
+   "hi": "यह दवा खाने के बाद लीजिए।"
+  },
+  {
+   "en": "Take the medicine after food.",
+   "hi": "खाने के बाद दवा लीजिए।"
+  },
+  {
+   "en": "Come back tomorrow morning.",
+   "hi": "कल सुबह फिर आइए।"
+  },
+  {
+   "en": "Where is the pain?",
+   "hi": "दर्द कहाँ है?"
+  },
+  {
+   "en": "Take a deep breath.",
+   "hi": "गहरी साँस लीजिए"
+  }
+ ]
+}
